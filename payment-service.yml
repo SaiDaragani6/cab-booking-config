@@ -28,8 +28,8 @@ management:
       
 springdoc:
   api-docs:
-    path: /api/drivers/v3/api-docs
+    path: /api/payments/v3/api-docs
   swagger-ui:
-    path: /api/drivers/swagger-ui.html
+    path: /api/payments/swagger-ui.html
     operationsSorter: method
     tagsSorter: alpha
