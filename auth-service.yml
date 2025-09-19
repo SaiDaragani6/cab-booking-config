@@ -27,7 +27,7 @@ management:
 
 #cabbookingsecrete
 app:
-  jwt-secrete: 705819a89f19aa889354a7b526fb5bedd143beec344fccc73aafd1fdfb0b8b47
+  jwt-secret: 705819a89f19aa889354a7b526fb5bedd143beec344fccc73aafd1fdfb0b8b47
   jwt-expiration-milliseconds: 604800000
 
 springdoc:
