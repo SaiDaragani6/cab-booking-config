@@ -3,7 +3,7 @@ spring:
     name: rideservice
 
   datasource:
-    url: jdbc:mysql://localhost:3306/cab_booking_rides?createDatabaseIfNotExist=true  # Corrected 'mySql' to 'mysql'
+    url: jdbc:mysql://localhost:3306/cab_booking_rides?createDatabaseIfNotExist=true
     username: root
     password: cab_booking
     driver-class-name: com.mysql.cj.jdbc.Driver
