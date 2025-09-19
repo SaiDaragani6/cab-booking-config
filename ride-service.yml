@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: rideservice
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/cab_booking_rides?createDatabaseIfNotExist=true  # Corrected 'mySql' to 'mysql'
+    username: root
+    password: cab_booking
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+server:
+  port: 8083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+
+springdoc:
+  api-docs:
+    path: /api/rides/v3/api-docs
+  swagger-ui:
+    path: /api/rides/swagger-ui.html
+    operationsSorter: method
+    tagsSorter: alpha
